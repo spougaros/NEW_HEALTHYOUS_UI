@@ -1,7 +1,7 @@
 // const API_BASE = "http://localhost:9003/api/";
 export const API_BASE =
   process.env.NODE_ENV === "production"
-    ? "fervent-clarke.185-138-42-154.plesk.page/api/"
+    ? "https://api.masterweb.gr/api/"
     : "http://localhost:9003/api/"; 
 
 // Auth
