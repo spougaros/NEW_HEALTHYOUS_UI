@@ -3,7 +3,7 @@ export { departments, gender } from "./select-options";
 // export const STATIC_FILE_BASE = "http://localhost:9003/static/";
 export const STATIC_FILE_BASE =
     process.env.NODE_ENV === "production"
-        ? "http://api.masterweb.gr/static/"
+        ? "https://api.masterweb.gr/static/"
         : "http://localhost:9003/static/"; 
 export {
     // Auth
