@@ -3,8 +3,8 @@ export { departments, gender } from "./select-options";
 // export const STATIC_FILE_BASE = "http://localhost:9003/static/";
 export const STATIC_FILE_BASE =
     process.env.NODE_ENV === "production"
-        ? "https://my-clinic-api.herokuapp.com/static/"
-        : "http://localhost:9003/static/";
+        ? "fervent-clarke.185-138-42-154.plesk.page/static/"
+        : "http://localhost:9003/static/"; 
 export {
     // Auth
     loginUrl,

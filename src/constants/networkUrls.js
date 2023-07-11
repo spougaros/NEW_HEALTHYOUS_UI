@@ -1,8 +1,8 @@
 // const API_BASE = "http://localhost:9003/api/";
 export const API_BASE =
   process.env.NODE_ENV === "production"
-    ? "https://my-clinic-api.herokuapp.com/api/"
-    : "http://localhost:9003/api/";
+    ? "fervent-clarke.185-138-42-154.plesk.page/api/"
+    : "http://localhost:9003/api/"; 
 
 // Auth
 export const loginUrl = `${API_BASE}auth/login`;
